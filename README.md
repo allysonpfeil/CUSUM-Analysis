@@ -22,7 +22,7 @@ The time data was grouped into cohorts of five patients and their time data, so 
 Simply add the time data in question to the main.py and plug in. 
 Now, let's go over how to interpret the results. The print should look something like this:
 #EXPOSURE
-#1    2    3    4         5
+      #1    2    3    4         5
 #1  1.000000  1.0  1.0  1.0  0.515612
 #2  1.000000  1.0  1.0  1.0  1.000000
 #3  1.000000  1.0  1.0  1.0  1.000000
