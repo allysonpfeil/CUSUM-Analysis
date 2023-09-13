@@ -28,7 +28,8 @@ Now, let's go over how to interpret the results. The print should look something
 #3.  1.000000  1.0  1.0  1.0  1.000000
 #4.  1.000000  1.0  1.0  1.0  1.000000
 #5.  0.515612  1.0  1.0  1.0  1.000000
-      1  2  3  4  5
-  #1 1.0  1.0 1.0 1.0 0.51
+
+    1    2    3    4    5
+#1  1.0  1.0  1.0  1.0  0.51
 
 This outputs a matrix containing the P values of the all-versus-all comparison. For this exposure stage, none of the stages experienced a statistically significant time change, since none of the P values in the matrix are < .05. Thus, the variance did not lie within the exposure stage of robotic surgery. When reading this matrix, use the row value to correspond to a column value. For instance, the value in row #1 and column #1 means "The P value from the comparison of exposure group 1 to exposure group 1." Obviously, this will output a statistically equivocal P value. As another example, the value in row #5 and column #1 means "The P value from the comparison of exposure group 1 to exposure group 5." Notice that the value in row 5 col 1 is the same as row 1 col 5. This is because the same comparison is being made: group 1 to group 5. These groups are interchangable and will output the same P value. 
