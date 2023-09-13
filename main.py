@@ -1,4 +1,4 @@
-#VELYS Re-Analysis by Allyson Pfeil
+#Analysis by Allyson Pfeil
 
 #import libraries required
 import scikit_posthocs as sp
@@ -16,7 +16,7 @@ print("EXPOSURE")
 print(exposure_results)
 
 ###PIN PLACEMENT###
-#specify the PIN PLACEMENT for each group of five patients
+#specify the PIN PLACEMENT TIME for each group of five patients
 pingroup1 = [insert time data here] #patients 1-5
 pingroup2 = [insert time data here] #patients 6-10
 pingroup3 = [insert time data here] #patients 11-15
@@ -28,7 +28,7 @@ print("PIN PLACEMENT")
 print(pin_results)
 
 ###REGISTRATION###
-#specify the REGISTRATION for each group of five patients
+#specify the REGISTRATION TIME for each group of five patients
 reggroup1 = [insert time data here] #patients 1-5
 reggroup2 = [insert time data here] #patients 6-10
 reggroup3 = [insert time data here] #patients 11-15
@@ -40,7 +40,7 @@ print("REGISTRATION")
 print(reg_results)
 
 ###ROBOTIC BONE CUTS###
-#specify the ROBOTIC BONE CUTS for each group of five patients
+#specify the ROBOTIC BONE CUTS TIME for each group of five patients
 robgroup1 = [insert time data here] #patients 1-5
 robgroup2 = [insert time data here] #patients 6-10
 robgroup3 = [insert time data here] #patients 11-15
@@ -52,12 +52,12 @@ print("ROBOTIC BONE CUTS")
 print(rob_results)
 
 ###TRIALS###
-#specify the TRIALS for each group of five patients
-trygroup1 = [7, 8, 9, 12, 12] #patients 1-5
-trygroup2 = [8, 7, 6, 8, 4] #patients 6-10
-trygroup3 = [10, 10, 6, 7, 8] #patients 11-15
-trygroup4 = [6, 9, 8, 6, 8] #patients 16-20
-trygroup5 = [5, 7, 7, 7, 19] #patients 21-25
+#specify the TRIALS TIME for each group of five patients
+trygroup1 = [insert time data here] #patients 1-5
+trygroup2 = [insert time data here] #patients 6-10
+trygroup3 = [insert time data here] #patients 11-15
+trygroup4 = [insert time data here] #patients 16-20
+trygroup5 = [insert time data here] #patients 21-25
 try_data = [trygroup1, trygroup2, trygroup3, trygroup4, trygroup5]
 try_results = sp.posthoc_dunn(try_data, p_adjust='bonferroni')
 print("TRIALS")
@@ -65,7 +65,7 @@ print(try_results)
 ###END OF CODE###
 
 ###OUTPUT###
-        #C:\dev\opencv.test>python VELYS.py
+        #C:\dev\opencv.test>python REDACTED.py
         #EXPOSURE
                 #1    2    3    4         5
         #1  1.000000  1.0  1.0  1.0  0.515612
