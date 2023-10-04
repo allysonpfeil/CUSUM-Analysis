@@ -11,6 +11,7 @@ For context, this project is analyzing where the variance lies following P < .05
   4. Robotic Bone Cuts
   5. Trials
 
+
 Inside these groups are time data that corresponds to how long each stage took place. This analysis sought to identify any time change over the course of implementing a new robot to perform the surgery. In other words, the time data corresponds to the learning curve that the surgeon experienced while acclimating to the new device.
 
 The time data was grouped into cohorts of five patients and their time data, so as to minimize variance while also being realistic. So, we can establish that inside each surgical stage (exposure, pin placement, registration, robotic bone cuts, trials) exists five, chronological groups that house the time data. Here is an example:
