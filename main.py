@@ -1,6 +1,3 @@
-#Analysis by Allyson Pfeil
-
-#import libraries required
 import scikit_posthocs as sp
 
 ###EXPOSURE###
